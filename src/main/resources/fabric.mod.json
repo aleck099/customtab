@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "customtab",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "Custom Tab",
+  "description": "Customize player list",
   "authors": [
-    "Me!"
+    "aleck099"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "",
+    "sources": "https://github.com/aleck099/customtab"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "",
+  "icon": "assets/customtab/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "net.accel.customtab.ModMain"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "customtab.mixins.json"
   ],
 
   "depends": {
