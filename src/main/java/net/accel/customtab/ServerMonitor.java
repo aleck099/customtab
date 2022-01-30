@@ -13,7 +13,7 @@ public class ServerMonitor {
     }
 
     public int getTps() {
-        return tps;
+        return Math.min(tps, 20);
     }
 
     public int getMspt() {

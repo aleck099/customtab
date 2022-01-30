@@ -1,5 +1,5 @@
 # CustomTab
 
-Version: 1.0
+Version: 1.1
 
 Config path: `config/customtab.ini`
