@@ -4,6 +4,7 @@
   "package": "net.accel.customtab.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": [
+    "PlayerManagerMixin"
   ],
   "client": [
   ],
